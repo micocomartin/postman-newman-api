@@ -1,0 +1,16 @@
+{
+  "name": "postman-newman-jenkins",
+  "version": "1.0.0",
+  "description": "project for storing postman test",
+
+"directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "api-test-production": "newman run tests/newmansample.postman_collection"
+  },
+  "author": "mico",
+  "dependencies": {
+    "newman": "^3.8.1"
+  }
+}
