@@ -7,7 +7,7 @@
     "test": "tests"
   },
   "scripts": {
-    "api-test-production": "newman run tests/newmansample.postman_collection"
+    "api-tests-production": "newman run tests/newmansample.postman_collection"
   },
   "author": "mico",
   "dependencies": {
